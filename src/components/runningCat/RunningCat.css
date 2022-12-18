@@ -1,0 +1,14 @@
+.img-cat {
+    position: fixed;
+    width: 225px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    -webkit-transition-duration: 100ms;
+    transition-duration:100ms;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    will-change: width, height, transform, border;
+    z-index: 999;
+    pointer-events: none;
+}
+
